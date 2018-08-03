@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180803 14:04:04.434" generator="Robot 3.0.4 (Python 2.7.13 on win32)">
+<suite source="C:\robot\gamexo.robot" id="s1" name="Gamexo">
+<test id="s1-t1" name="ผู้เล่น player 1 (x) ชนะแนวนอนแถว 1">
+<kw name="เปิดหน้าเว็บOX">
+<kw name="Open Brower">
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180803 14:04:04.573" level="FAIL">No keyword with name 'Open Brower' found. Did you mean:
+    SeleniumLibrary.Open Browser</msg>
+<status status="FAIL" endtime="20180803 14:04:04.573" starttime="20180803 14:04:04.573"></status>
+</kw>
+<status status="FAIL" endtime="20180803 14:04:04.573" starttime="20180803 14:04:04.573"></status>
+</kw>
+<status status="FAIL" endtime="20180803 14:04:04.573" critical="yes" starttime="20180803 14:04:04.573">No keyword with name 'Open Brower' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</test>
+<status status="FAIL" endtime="20180803 14:04:04.589" starttime="20180803 14:04:04.438"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Gamexo" pass="0">Gamexo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
